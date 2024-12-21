@@ -1,0 +1,122 @@
+body{
+    background-color: lightyellow;
+    text-align: left;
+    align-items: center;
+    font-size: 1.4em;
+}
+
+.containerBP{
+    background-color: white;
+    border-radius: 10px;
+    height: 600px;
+    padding: 24px;
+    width: 350px; 
+    margin: 0 auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    display: block;
+    box-sizing: border-box;
+}
+
+input{
+    border: none;
+    width: 100%;
+    border-bottom: .3px black solid;
+    text-align: center;
+}
+
+span{
+    font-size: 10px;
+    display: flex;
+    padding-top: .5em;
+}
+
+
+.opciones-invertir, .botones{
+    margin-top: 10px;
+    display: flex;
+}
+
+
+button{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+    width: 48%;
+    margin: 5px;
+}
+
+.btn_opciones{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    flex: 1;
+    width: calc(25% - 10px);
+}
+
+.btn_opciones{
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    flex: 1;
+    width: calc(25% - 10px);
+}
+#input-plazo {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+#input-plazo input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin-top: 5px;
+}
+
+.btn_opciones:hover{
+    background-color: #f1f1f1;
+}
+
+.btn_opciones.selected{
+    border-color: #66ccff;
+    background-color: #f0f8ff;
+}
+
+
+.inversion{
+    margin-top: auto; 
+}
+.btn-invertir{
+    width: 100%;
+    padding: 12px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btn-invertir:hover{
+    background-color: #f1c40f;
+}
+
+#respuestas{
+    font-size: 14px;
+    background-color: rgb(234, 234, 234);
+    padding-top: .5em;
+}
+
+#spn-primer{
+    font-size: .6em;
+}
